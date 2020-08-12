@@ -1,11 +1,8 @@
-language: node_js
-node_js:
-  - 12.18.3
 deploy:
   provider: heroku
   skip_cleanup: true
   api_key:
-  secure: $HEROKU_KEY
-  local_dir: rslang
+    secure: $HEROKU_KEY
+    local_dir: rslang
   on:
     branch: develop
