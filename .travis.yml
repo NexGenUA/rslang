@@ -1,8 +1,0 @@
-deploy:
-  provider: heroku
-  skip_cleanup: true
-  api_key:
-    secure: $HEROKU_KEY
-    local_dir: rslang
-  on:
-    branch: develop
